@@ -5,6 +5,7 @@ A RESTful API for an e-commerce system that allows users to manage products, han
 ## 📚 Table of Contents
 
 - [Overview](#-overview)
+- [Dependencies](#-dependencies)
 - [Base URL](#-base-url)
 - [Authentication](#-authentication)
 - [Endpoints](#-endpoints)
@@ -26,6 +27,18 @@ This API provides core functionalities for an e-commerce platform, including:
 
 ---
 
+## ⚙️ Dependencies
+
+This project requires the following Python packages:
+
+- Flask==2.3.0
+- Flask-SQLAlchemy==3.1.1
+- Flask-Login==0.6.2
+- Flask-Cors==3.0.10
+- Werkzeug==2.3.0
+
+---
+
 ## 🌐 Base URL
 
 http://127.0.0.1:5000
@@ -40,8 +53,9 @@ All endpoints listed below are relative to this base URL.
 
 #### `POST /login`
 Log in a user.
-```json
+
 Request Body:
+```json
 {
   "username": "john_doe",
   "password": "secure_password"
@@ -64,8 +78,9 @@ Search products by query string.
 
 #### `POST /api/products/add`
 Add a new product.
-```json
+
 Request Body:
+```json
 {
   "id": 1,
   "name": "T-Shirt",
