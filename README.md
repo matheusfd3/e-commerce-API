@@ -12,8 +12,6 @@ A RESTful API for an e-commerce system that allows users to manage products, han
   - [Products](#products)
   - [Cart](#cart)
 - [Data Models](#-data-models)
-- [How to Run](#-how-to-run)
-- [Tech Stack](#-tech-stack)
 
 ---
 
