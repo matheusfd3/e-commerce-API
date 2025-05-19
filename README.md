@@ -27,7 +27,7 @@ This API provides core functionalities for an e-commerce platform, including:
 
 ---
 
-## ⚙️ Dependencies
+## 📦 Dependencies
 
 This project requires the following Python packages:
 
